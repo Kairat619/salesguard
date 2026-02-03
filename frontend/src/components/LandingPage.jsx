@@ -12,6 +12,7 @@ import TargetUsersSection from './sections/TargetUsersSection';
 import CTASection from './sections/CTASection';
 import Navbar from './sections/Navbar';
 import Footer from './sections/Footer';
+import BackToTopBadge from './sections/BackToTopBadge';
 
 const LandingPage = () => {
   return (
@@ -29,6 +30,7 @@ const LandingPage = () => {
       <TargetUsersSection />
       <CTASection />
       <Footer />
+      <BackToTopBadge />
     </main>
   );
 };

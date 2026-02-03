@@ -36,7 +36,7 @@ export const LanguageProvider = ({ children }) => {
 const getTranslation = (key, lang) => {
   const keys = key.split('.');
   let value = translations[lang];
-  
+
   for (const k of keys) {
     if (value && value[k]) {
       value = value[k];
@@ -288,7 +288,7 @@ export const translations = {
       solution: 'Шешім',
       howItWorks: 'Қалай жұмыс істейді',
       benefits: 'Артықшылықтар',
-      requestDemo: 'Демо сұрау',
+      requestDemo: 'Сынап көру',
       startTrial: 'Тегін бастау',
     },
     hero: {
@@ -300,7 +300,7 @@ export const translations = {
       feature2: 'Әр операцияны құлыптау',
       feature3: 'Әр қалыптан тыс әрекетті анықтау',
       feature4: 'Әр пайданы қорғау',
-      requestDemo: 'Демо сұрау',
+      requestDemo: 'Сынап көру ',
       startTrial: 'Тегін бастау',
       dashboard: 'Тікелей бақылау тақтасы',
       totalStock: 'Жалпы қор',
@@ -497,7 +497,7 @@ export const translations = {
       protect2: 'Пайдаңызды қорғаңыз',
       protect3: 'Компанияңызды қорғаңыз',
       riskAssessment: 'Тегін тәуекел бағалауын брондаңыз',
-      requestDemo: 'Демо сұрау',
+      requestDemo: 'Сынап көру',
       talkExperts: 'Сарапшылармен сөйлесіңіз',
     },
     footer: {
